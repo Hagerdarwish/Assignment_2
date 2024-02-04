@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_margin="20dp"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+<androidx.appcompat.widget.LinearLayoutCompat
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="351dp"
+        android:layout_height="186dp"
+        android:layout_marginTop="32dp"
+android:src="@drawable/android"
+        android:scaleType="fitStart"
+        android:layout_gravity="center"
+        />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btn_shape"
+
+        android:text="@string/android_course"
+        android:layout_gravity="center" />
+
+    <ImageView
+        android:id="@+id/imgIos"
+        android:layout_width="351dp"
+        android:layout_height="186dp"
+        android:scaleType="fitStart"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/ios"
+        android:layout_gravity="center" />
+
+    <Button
+        android:id="@+id/buttonIos"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_shape"
+        android:text="@string/ios_course"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center" />
+
+    <ImageView
+        android:id="@+id/imgWeb"
+        android:layout_width="351dp"
+        android:layout_height="186dp"
+        android:scaleType="fitStart"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/fullstack"
+        android:layout_gravity="center" />
+
+    <Button
+        android:id="@+id/buttonWeb"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_shape"
+        android:layout_marginTop="20dp"
+        android:text="@string/fullstack_course"
+        android:layout_gravity="center"
+        />
+</androidx.appcompat.widget.LinearLayoutCompat>
+
+
+    </ScrollView>
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Assignment 2</string>
+    <string name="fullstack_course">FULLSTACK COURSE</string>
+    <string name="ios_course">IOS COURSE</string>
+    <string name="android_course">ANDROID COURSE</string>
+</resources>
